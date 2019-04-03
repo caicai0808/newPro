@@ -1,6 +1,5 @@
 <template>
   <div class="vote" >
-    <a name="top"></a>
     <div class="info-wrap" v-show="showInfo">
       <div class="info-list">
         <mt-field label="地区" placeholder="投票人地区" v-model="name"></mt-field>
@@ -23,8 +22,8 @@
     <h3 class="ui-title ui-center">团贷网出借人委员会代表选举投票</h3>
     <div class="ui-center">投票时间：<span class="ui-gray">待定</span></div>
     <div class="ui-link ui-center">
-     <a href="#top" @click="showConstitution()"> 出借人委员会章程</a>
-      </div>
+     <span @click="showConstitution()"> 出借人委员会章程</span>
+    </div>
 
     <div class="vote-list-t ui-center">出借人委员会代表候选人</div>
     <ul class="cb graybg">
