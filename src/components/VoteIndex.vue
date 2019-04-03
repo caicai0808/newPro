@@ -85,7 +85,15 @@ export default {
   },
   methods: {
   	initData(){
-  		Object.assign(this, this.$options.data())
+      this.name = ''
+    	this.mobile = ''
+    	this.amount = '',
+    	this.voteInfo = {}
+      this.allNum = 0
+      this.agree1 = false
+      this.agree2 = false
+      this.formInfo = {}
+      this.list = []
     },
     showConstitution(){
       this.isShowConstitution = true;
@@ -156,7 +164,7 @@ export default {
 			this.$http.post(api.vsubmit, formData, {'Content-Type':'Multipart/form-data'}).then((res) => {
 			   if(res.status == 200){
     			MessageBox.confirm('您已投票，请勿重复投票，谢谢！').then(action => {
-    				Object.assign(this, this.$options.data())
+            this.initData()
     				this.getData()
     				this.showInfo = false
     				window.opener=null
