@@ -128,9 +128,16 @@ export default {
     	if(this.allNum < 1){
     		Toast('请至少选择1位候选人')
     		return
-    	}
+      }
+      let toastMsg = {name: '请填写地区',amount: '请填写待收金额',mobile:'请填写手机号',agree2:'请勾选同意授权',agree1: '请勾选并承诺提交信息真实无误！'}
     	if (!this.name || !this.mobile || !this.amount || !this.agree1 || !this.agree2 ) {
-    		Toast('请完善个人信息')
+        let key = ''
+        if (!this.name) key = 'name'
+        if (!this.mobile) key = 'mobile'
+        if (!this.amount) key = 'amount'
+        if (!this.agree1) key = 'agree1'
+        if (!this.agree2) key = 'agree2'
+    		Toast(toastMsg[key])
     		this.showInfo = true
     	} else{
     		this.submitForm()
@@ -148,7 +155,7 @@ export default {
 					formData.append('voteInfo', JSON.stringify(voteInfoArr))
 			this.$http.post(api.vsubmit, formData, {'Content-Type':'Multipart/form-data'}).then((res) => {
 			   if(res.status == 200){
-    			MessageBox.confirm('提交成功！').then(action => {
+    			MessageBox.confirm('您已投票，请勿重复投票，谢谢！').then(action => {
     				Object.assign(this, this.$options.data())
     				this.getData()
     				this.showInfo = false
