@@ -2,7 +2,7 @@
 <div style="position: fixed;z-index: 20;height: 100%;width: 100%;">
   <div style="padding:10px;background: #fff;height: 80%;overflow: scroll;">
     <p style="text-align:center;line-height:150%">
-      <span style="font-size:18px;line-height:150%;font-family:方正小标宋简体">团贷网债权人委员会章程</span>
+      <span style="font-size:18px;line-height:150%;font-family:方正小标宋简体">团贷网出借人委员会章程</span>
     </p>
     <p style="line-height:150%">
       <strong>
@@ -16,29 +16,29 @@
       <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第一条 工作目标：</span>
       <span
         style="font-size: 14px;line-height:150%;font-family:仿宋_GB2312"
-      >为最大限度保护团贷网全体债权人的合法权益，规范债权人委员会的组织和行为，结合团贷网事件的实际情况，制定本章程。</span>
+      >为最大限度保护团贷网全体出借人的合法权益，规范出借人委员会的组织和行为，结合团贷网事件的实际情况，制定本章程。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第二条 组织名称：</span>
-      <span style="font-size: 14px;line-height:150%;font-family:仿宋_GB2312">团贷网债权人委员会（以下简称债委会）。</span>
+      <span style="font-size: 14px;line-height:150%;font-family:仿宋_GB2312">团贷网出借人委员会（以下简称债委会）。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第三条 组织形式：</span>
       <span
         style="font-size: 14px;line-height:150%;font-family:仿宋_GB2312"
-      >债权人委员会的组织形式为民间自治组织，主要代表团贷网债权人与政府相关部门及团贷网、有关企业沟通，反映债权人在资产处置及其他有关事项上的意见，规范团贷网债权人维权活动，在相关关民事、刑事案件中代表债权人提出合理合法意见，对清算及兑付过程中有关事宜履行监督义务等。</span>
+      >出借人委员会的组织形式为民间自治组织，主要代表团贷网出借人与政府相关部门及团贷网、有关企业沟通，反映出借人在资产处置及其他有关事项上的意见，规范团贷网出借人维权活动，在相关关民事、刑事案件中代表出借人提出合理合法意见，对清算及兑付过程中有关事宜履行监督义务等。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第四条 办公形式：</span>
       <span
         style="font-size: 14px;line-height:150%;font-family:仿宋_GB2312"
-      >债委会为临时机构，无固定办公场所，根据工作需要由债委会人员临时决定召集地点，或与政府相关部门沟通获取到常驻办公地点，直至债权人全部债权根据实际可兑付情况清偿完毕。</span>
+      >债委会为临时机构，无固定办公场所，根据工作需要由债委会人员临时决定召集地点，或与政府相关部门沟通获取到常驻办公地点，直至出借人全部债权根据实际可兑付情况清偿完毕。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第五条 债委会的行动准则：</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >遵守国家法律、法规，维护国家利益和社会公共利益，接受大部分债权人、政府和社会公众的监督。</span>
+      >遵守国家法律、法规，维护国家利益和社会公共利益，接受大部分出借人、政府和社会公众的监督。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">&nbsp;</span>
@@ -47,26 +47,26 @@
       <span style="font-size:16px;line-height:150%;font-family: 黑体">第二章：债委会的产生方式</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
-      <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第六条 团贷网债权人委员会：</span>
+      <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第六条 团贷网出借人委员会：</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >团贷网债权人委员会的产生是由团贷网债权人委员会筹备组，通过微信、QQ等方式向广大债权人发送电子授权委托书，经过一定数量的债权人同意授权，即代表团贷网债权人委员会成立，并依法享有代表授权债权人处理团贷网维权的有关事宜。</span>
+      >团贷网出借人委员会的产生是由团贷网出借人委员会筹备组，通过微信、QQ等方式向广大出借人发送电子授权委托书，经过一定数量的出借人同意授权，即代表团贷网出借人委员会成立，并依法享有代表授权出借人处理团贷网维权的有关事宜。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
-      <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第七条 团贷网债权人委员会主席团：</span>
+      <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第七条 团贷网出借人委员会主席团：</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
       >债委会主席团共设立5名副主席，1名临时主席。临时主席由5名副主席轮番担任，具体以在不同场景决定由哪位副主席出任临时主席，由主席团内部投票选择决定，一人一票，以多数票获得者担任。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
-      <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第八条 团贷网债权人委员会专门工作小组：</span>
+      <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第八条 团贷网出借人委员会专门工作小组：</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
       >债委会的专门工作小组包括文宣组、媒体组、资料收集组、法务组、财务审计组、IT组、现场组、外联组、特殊人才组共九个专门小组，小组的管理模式以组长负责制，每天统筹相应工作，责任到每个小组委员。如有实际需要，经过债委会主席团同意，可增加或者减少相应的专门工作小组。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第九条</span>
-      <span style="font-size:14px;line-height:150%;font-family:楷体_GB2312">团贷网债权人委员会专门工作小组职责：</span>
+      <span style="font-size:14px;line-height:150%;font-family:楷体_GB2312">团贷网出借人委员会专门工作小组职责：</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">1</span>
@@ -112,7 +112,7 @@
     </p>
     <p style="text-indent:37px">
       <span style="font-size:14px;font-family:仿宋_GB2312">9</span>
-      <span style="font-size:14px;font-family:仿宋_GB2312">、特殊人才组：有特殊才能、特殊资源、特殊背景，不方便公开参加债委会工作的债权人准备。</span>
+      <span style="font-size:14px;font-family:仿宋_GB2312">、特殊人才组：有特殊才能、特殊资源、特殊背景，不方便公开参加债委会工作的出借人准备。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第十条 债委会委员的加入或退出：</span>
@@ -122,7 +122,7 @@
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">1</span>
-      <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">、必须为团贷网真实债权人；</span>
+      <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">、必须为团贷网真实出借人；</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">2</span>
@@ -139,7 +139,7 @@
     <p style="text-indent:37px;line-height:150%">
       <span
         style="font-size:14px;line-height:150%;font-family: 楷体_GB2312"
-      >债委会委员的退出以自愿为原则，但退出后绝不能做有损全体债权人利益的事情。</span>
+      >债委会委员的退出以自愿为原则，但退出后绝不能做有损全体出借人利益的事情。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:楷体_GB2312">&nbsp;</span>
@@ -156,35 +156,35 @@
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">1</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >、代表债权人与团贷网及因团贷网事件需要承担连带责任的企业、股东、实际控制人就资产及债权处置事宜进行谈判。</span>
+      >、代表出借人与团贷网及因团贷网事件需要承担连带责任的企业、股东、实际控制人就资产及债权处置事宜进行谈判。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">2</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >、代表债权人与政府相关部门沟通，合法合理表达诉求，并且争取获得政府的对债委会合法身份的认可。</span>
+      >、代表出借人与政府相关部门沟通，合法合理表达诉求，并且争取获得政府的对债委会合法身份的认可。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">3</span>
-      <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">、代表债权人邀请金融办等政府机构和媒体介入监督。</span>
+      <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">、代表出借人邀请金融办等政府机构和媒体介入监督。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">4</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >、代表债权人对团贷网事情中犯罪嫌疑人的公诉案件提出量刑建议，以及与唐军、团贷公司高管的律师及亲属进行沟通，争取能获得有利于债权人的最佳事件处理方案。</span>
+      >、代表出借人对团贷网事情中犯罪嫌疑人的公诉案件提出量刑建议，以及与唐军、团贷公司高管的律师及亲属进行沟通，争取能获得有利于出借人的最佳事件处理方案。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">5</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >、债委会不定期开放言论通道收取债权人意见建议并认真研究分析，保证代表最广大债权人的根本利益。</span>
+      >、债委会不定期开放言论通道收取出借人意见建议并认真研究分析，保证代表最广大出借人的根本利益。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">6</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >、就债权人意见建议收集方式方法及汇总、债委会与团贷网就资产及债权处置方案讨论结果等重要信息，发表债委会官方公示报告。</span>
+      >、就出借人意见建议收集方式方法及汇总、债委会与团贷网就资产及债权处置方案讨论结果等重要信息，发表债委会官方公示报告。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">7</span>
@@ -198,7 +198,7 @@
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">9</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >、债委会有权以委员会的名义追究侵害债权人利益的当选委员。</span>
+      >、债委会有权以委员会的名义追究侵害出借人利益的当选委员。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">&nbsp;</span>
@@ -215,19 +215,19 @@
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">1</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >、债委会委员对代表债权人行使的权利享有表决权，并对债委会主席团成员享有投票权。</span>
+      >、债委会委员对代表出借人行使的权利享有表决权，并对债委会主席团成员享有投票权。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">2</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >、债委会委员有权代表债权人了解团贷网真实的资产状况和查阅财务状况，并对全体债权人以债委会的名义进行公示。</span>
+      >、债委会委员有权代表出借人了解团贷网真实的资产状况和查阅财务状况，并对全体出借人以债委会的名义进行公示。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">3</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >、在资产清算、处置、兑付过程中监督相应执行人的执行情况，并提出建议或质询意见，如在执行过程中发现执行人有损广大债权人利益的行为要及时阻止，并及时上报有关监督部门。</span>
+      >、在资产清算、处置、兑付过程中监督相应执行人的执行情况，并提出建议或质询意见，如在执行过程中发现执行人有损广大出借人利益的行为要及时阻止，并及时上报有关监督部门。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">4</span>
@@ -248,7 +248,7 @@
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">2</span>
       <span
         style="font-size:14px;line-height:150%;font-family:仿宋_GB2312"
-      >、时刻以全体债权人利益为根本出发点考虑问题，为债权人争取最大权益；合法合理地表达诉求，不参与任何违法犯罪活动。</span>
+      >、时刻以全体出借人利益为根本出发点考虑问题，为出借人争取最大权益；合法合理地表达诉求，不参与任何违法犯罪活动。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family:仿宋_GB2312">3</span>
@@ -287,7 +287,7 @@
       <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第十七条 表决方式：</span>
       <span
         style="font-size: 14px;line-height:150%;font-family:仿宋_GB2312"
-      >债委会所有行动及决策遵循少数服从多数原则，对于重大事项必须征得不少于2/3以上的委员同意。重大事项包括：修改债委会章程、对债委会的成立、变更、解散有关重大事项行使决议权、代表广大债权人谈判确定最终方案、对于资产处置变现的方式进行表决。</span>
+      >债委会所有行动及决策遵循少数服从多数原则，对于重大事项必须征得不少于2/3以上的委员同意。重大事项包括：修改债委会章程、对债委会的成立、变更、解散有关重大事项行使决议权、代表广大出借人谈判确定最终方案、对于资产处置变现的方式进行表决。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family: 仿宋_GB2312">所有决策与行动均以债委会集体名义进行。</span>
@@ -302,7 +302,7 @@
       <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第十八条 债委会成立：</span>
       <span
         style="font-size: 14px;line-height:150%;font-family:仿宋_GB2312"
-      >债委会自广大债权人投票结束，且经过全体委员第一次会议召开即视为正式成立，全体委员第一次会议召开的筹备工作由债委会筹备组筹办。</span>
+      >债委会自广大出借人投票结束，且经过全体委员第一次会议召开即视为正式成立，全体委员第一次会议召开的筹备工作由债委会筹备组筹办。</span>
     </p>
     <p style="text-indent:37px;line-height:150%">
       <span style="font-size:14px;line-height:150%;font-family: 楷体_GB2312">第十九条 债委会准则：</span>

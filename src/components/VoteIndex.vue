@@ -87,13 +87,11 @@ export default {
   	initData(){
       this.name = ''
     	this.mobile = ''
-    	this.amount = '',
-    	this.voteInfo = {}
-      this.allNum = 0
+      this.amount = ''
       this.agree1 = false
       this.agree2 = false
+    	this.voteInfo = {}
       this.formInfo = {}
-      this.list = []
     },
     showConstitution(){
       this.isShowConstitution = true;
@@ -109,7 +107,7 @@ export default {
     },
   	change(e) {
   		console.log(e)
-	    if(!(/^1[34578]\d{9}$/.test(e))){ 
+	    if(!(/^1[345789]\d{9}$/.test(e))){ 
 	        Toast("手机号码有误，请重填")
 	        this.mobile = ''
 	    } else {
@@ -163,7 +161,7 @@ export default {
 					formData.append('voteInfo', JSON.stringify(voteInfoArr))
 			this.$http.post(api.vsubmit, formData, {'Content-Type':'Multipart/form-data'}).then((res) => {
 			   if(res.status == 200){
-    			MessageBox.confirm('您已投票，请勿重复投票，谢谢！').then(action => {
+    			MessageBox.confirm('您已成功提交投票结果，谢谢！').then(action => {
             this.initData()
     				this.getData()
     				this.showInfo = false
@@ -187,6 +185,7 @@ export default {
     		}
     	})
     	this.$http.get(api.members).then(res => {
+        this.list = []
     		if(res.body.status == 200){
     			this.list = res.body.data
     		} else {
