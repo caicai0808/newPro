@@ -107,7 +107,7 @@ export default {
     },
   	change(e) {
   		console.log(e)
-	    if(!(/^1[345789]\d{9}$/.test(e))){ 
+	    if(!(/^1[3456789]\d{9}$/.test(e))){ 
 	        Toast("手机号码有误，请重填")
 	        this.mobile = ''
 	    } else {
