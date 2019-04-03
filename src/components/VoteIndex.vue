@@ -160,7 +160,7 @@ export default {
 					formData.append('amount', this.amount)    
 					formData.append('voteInfo', JSON.stringify(voteInfoArr))
 			this.$http.post(api.vsubmit, formData, {'Content-Type':'Multipart/form-data'}).then((res) => {
-			   if(res.status == 200){
+			   if(res.body.status == 200){
     			MessageBox.confirm('您已成功提交投票结果，谢谢！').then(action => {
             this.initData()
     				this.getData()
@@ -170,7 +170,7 @@ export default {
 						window.close()
     			})
 	  		} else {
-	  			Toast(res.msg)
+	  			Toast(res.body.msg)
 	  		}
 			}, function (res) {
 				
@@ -185,7 +185,6 @@ export default {
     		}
     	})
     	this.$http.get(api.members).then(res => {
-        this.list = []
     		if(res.body.status == 200){
     			this.list = res.body.data
     		} else {
