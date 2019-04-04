@@ -131,7 +131,7 @@ export default {
      		if (item.checked) {
      			this.$set(this.list[i],'checked', false)
      		} else {
-     			Toast('最多选3人')
+     			Toast('最多选5人')
      		}
     	}
     	this.voteInfo = this.list.filter((item,i) => { return item.checked })
@@ -152,10 +152,8 @@ export default {
         if (!this.nickname) key = 'nickname'
     		Toast(toastMsg[key])
     	} else {
-        MessageBox.alert('信息已完善，前往投票页面').then(action => {
-          this.canSubmit = true
-          this.showInfo = false
-        })
+        this.canSubmit = true
+        this.showInfo = false
     	}
     },
     saveInfo(){
