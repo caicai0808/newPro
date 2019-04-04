@@ -2,6 +2,8 @@
   <div class="vote" >
     <div class="info-wrap" v-show="showInfo">
       <div class="info-list">
+        <div class="clost-btns" @click="closeBtn()">×</div>
+        <div style="height:1px;width:10px"></div>
         <mt-field label="地区" placeholder="投票人地区" v-model="name"></mt-field>
         <mt-field label="团贷注册手机号" placeholder="请输入手机号" type="tel" @change="change($event)" v-model="mobile"></mt-field>
         <mt-field label="待回款总额" placeholder="请输入金额" type="number"  v-model="amount"></mt-field>
@@ -62,7 +64,7 @@ export default {
     	amount:'',
     	voteInfo:{},
       allNum:0,
-      showInfo:true,
+      showInfo:false,
       agree1: false,
       agree2: false,
       formInfo:{},
@@ -106,12 +108,9 @@ export default {
     	this.isShowWeiTuo = event.flag;
     },
   	change(e) {
-  		console.log(e)
 	    if(!(/^1[3456789]\d{9}$/.test(e))){ 
 	        Toast("手机号码有误，请重填")
 	        this.mobile = ''
-	    } else {
-	    	this.canSubmit = true
 	    }
   	},
     choose(item,i) {
@@ -127,16 +126,12 @@ export default {
     	this.voteInfo = this.list.filter((item,i) => { return item.checked })
     	this.allNum = this.voteInfo.length
     },
-    saveInfo(){
+    closeBtn(){
       this.showInfo = false
     },
-    saveVoteInfo(){
-    	if(this.allNum < 1){
-    		Toast('请至少选择1位候选人')
-    		return
-      }
+    checkSelfInfo(){
       let toastMsg = {name: '请填写地区',amount: '请填写待收金额',mobile:'请填写手机号',agree2:'请勾选同意授权',agree1: '请勾选并承诺提交信息真实无误！'}
-    	if (!this.name || !this.mobile || !this.amount || !this.agree1 || !this.agree2 ) {
+      if (!this.name || !this.mobile || !this.amount || !this.agree1 || !this.agree2 ) {
         let key = ''
         if (!this.name) key = 'name'
         if (!this.mobile) key = 'mobile'
@@ -144,10 +139,28 @@ export default {
         if (!this.agree1) key = 'agree1'
         if (!this.agree2) key = 'agree2'
     		Toast(toastMsg[key])
-    		this.showInfo = true
-    	} else{
-    		this.submitForm()
+    	} else {
+        this.canSubmit = true
+        this.showInfo = false
     	}
+    },
+    saveInfo(){
+      this.checkSelfInfo()
+    },
+    saveVoteInfo(){
+    	if(this.allNum < 1){
+    		Toast('请至少选择1位候选人')
+    		return
+      }
+      if (this.canSubmit) {
+        MessageBox.confirm('确定提交投票结果?').then(action => {
+          this.submitForm()
+        })
+      } else {
+        MessageBox.confirm('请先完善个人信息').then(action => {
+          this.showInfo = true
+        })
+      }
     },
     submitForm(){
     	let voteInfoArr = []
@@ -328,6 +341,7 @@ ul,li{
   box-sizing: border-box;
 }
 .info-list{
+  position: relative;
   border-radius: 6px;
   background:#fff;
   height: 400px;
@@ -335,6 +349,19 @@ ul,li{
   margin: 0 auto;
   padding: 20px 10px 10px 10px;
   box-sizing: border-box;
+}
+.clost-btns{
+  position: absolute;
+  background: #26a2ff;
+  right: -6px;
+  top: -10px;
+  height: 18px;
+  width: 18px;
+  line-height: 18px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
 }
 .mint-cell-wrapper{
   text-align: left;
