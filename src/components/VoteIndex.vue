@@ -16,7 +16,7 @@
           本人已阅读<span class="voterule" @click="showWeiTuo">《出借人委员会授权委托书》</span>,并同意授权出借人委员会代表处理有关团贷网维权事宜。  
         </div>
         <div class="form-btn">
-          <mt-button @click="saveInfo()" type="primary" size="normal">确定</mt-button>
+          <mt-button @click="saveInfo()" type="primary" size="normal">保存个人信息</mt-button>
         </div>
       </div>
     </div>
