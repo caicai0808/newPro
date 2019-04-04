@@ -5,6 +5,7 @@
         <div class="clost-btns" @click="closeBtn()">×</div>
         <div style="height:1px;width:10px"></div>
         <mt-field label="地区" placeholder="投票人地区" v-model="name"></mt-field>
+        <mt-field label="团贷网昵称" placeholder="团贷网昵称" v-model="nickname"></mt-field>
         <mt-field label="团贷注册手机号" placeholder="请输入手机号" type="tel" @change="change($event)" v-model="mobile"></mt-field>
         <mt-field label="待回款总额" placeholder="请输入金额" type="number"  v-model="amount"></mt-field>
         <div class="padding-left">
@@ -61,7 +62,8 @@ export default {
     return {
     	name: '',
     	mobile:'',
-    	amount:'',
+      amount:'',
+      nickname:'',
     	voteInfo:{},
       allNum:0,
       showInfo:false,
@@ -90,6 +92,7 @@ export default {
       this.name = ''
     	this.mobile = ''
       this.amount = ''
+      this.nickname = ''
       this.agree1 = false
       this.agree2 = false
     	this.voteInfo = {}
@@ -132,14 +135,15 @@ export default {
       this.showInfo = false
     },
     checkSelfInfo(){
-      let toastMsg = {name: '请填写地区',amount: '请填写待收金额',mobile:'请填写手机号',agree2:'请勾选同意授权',agree1: '请勾选并承诺提交信息真实无误！'}
-      if (!this.name || !this.mobile || !this.amount || !this.agree1 || !this.agree2 ) {
+      let toastMsg = {name: '请填写地区',amount: '请填写待收金额',mobile:'请填写手机号',agree2:'请勾选同意授权',agree1: '请勾选并承诺提交信息真实无误！',nickname:'请输入团贷网昵称'}
+      if (!this.name || !this.mobile || !this.amount || !this.agree1 || !this.agree2 || !this.nickname) {
         let key = ''
         if (!this.name) key = 'name'
         if (!this.mobile) key = 'mobile'
         if (!this.amount) key = 'amount'
         if (!this.agree1) key = 'agree1'
         if (!this.agree2) key = 'agree2'
+        if (!this.nickname) key = 'nickname'
     		Toast(toastMsg[key])
     	} else {
         MessageBox.alert('信息已完善，前往投票页面').then(action => {
@@ -174,7 +178,8 @@ export default {
     	let formData = new FormData()
 					formData.append('name', this.name)
 					formData.append('mobile', this.mobile)
-					formData.append('amount', this.amount)    
+          formData.append('amount', this.amount) 
+          formData.append('nickname', this.nickname)    
 					formData.append('voteInfo', JSON.stringify(voteInfoArr))
 			this.$http.post(api.vsubmit, formData, {'Content-Type':'Multipart/form-data'}).then((res) => {
 			   if(res.body.status == 200){
