@@ -125,7 +125,7 @@ export default {
 	    }
   	},
     choose(item,i) {
-    	if (this.allNum <3) {
+    	if (this.allNum <5) {
     		item.checked == undefined ? this.$set(this.list[i],'checked',true) : this.$set(this.list[i],'checked', !item.checked)
      	} else{
      		if (item.checked) {
