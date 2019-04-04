@@ -86,7 +86,7 @@ export default {
     this.getData()
   },
   methods: {
-  	initData(){
+  	initData() {
       this.name = ''
     	this.mobile = ''
       this.amount = ''
@@ -94,6 +94,8 @@ export default {
       this.agree2 = false
     	this.voteInfo = {}
       this.formInfo = {}
+      this.canSubmit = false
+      this.allNum = 0
     },
     showConstitution(){
       this.isShowConstitution = true;
