@@ -174,7 +174,7 @@ export default {
 					formData.append('voteInfo', JSON.stringify(voteInfoArr))
 			this.$http.post(api.vsubmit, formData, {'Content-Type':'Multipart/form-data'}).then((res) => {
 			   if(res.body.status == 200){
-    			MessageBox.confirm('您已成功提交投票结果，谢谢！').then(action => {
+    			MessageBox.alert('您已成功提交投票结果，谢谢！').then(action => {
             this.initData()
     				this.getData()
     				this.showInfo = false
