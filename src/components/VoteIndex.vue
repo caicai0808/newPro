@@ -7,7 +7,7 @@
         <mt-field label="地区" placeholder="投票人地区" v-model="name"></mt-field>
         <mt-field label="团贷网昵称" placeholder="团贷网昵称" v-model="nickname"></mt-field>
         <mt-field label="团贷注册手机号" placeholder="请输入手机号" type="tel" @change="change($event)" v-model="mobile"></mt-field>
-        <mt-field label="待回款总额" placeholder="请输入金额" type="number"  v-model="amount"></mt-field>
+        <mt-field label="待回款总额" placeholder="请输入金额" @change="changeMoney($event)" type="number"  v-model="amount"></mt-field>
         <div class="padding-left">
           <span @click="agree1 = !agree1" :class="{'mint-checkbox-core-checked':agree1}" class="mint-checkbox-core"></span>本人承诺提交资料真实无误
         </div>
@@ -88,6 +88,12 @@ export default {
     this.getData()
   },
   methods: {
+    changeMoney(e) {
+      if (e < 0) {
+        Toast("请输入正确金额")
+	      this.amount = ''
+      }
+    },
   	initData() {
       this.name = ''
     	this.mobile = ''
