@@ -140,8 +140,10 @@ export default {
         if (!this.agree2) key = 'agree2'
     		Toast(toastMsg[key])
     	} else {
-        this.canSubmit = true
-        this.showInfo = false
+        MessageBox.alert('信息已完善，前往投票页面').then(action => {
+          this.canSubmit = true
+          this.showInfo = false
+        })
     	}
     },
     saveInfo(){
